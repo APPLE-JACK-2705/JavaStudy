@@ -1,11 +1,14 @@
 package lesson_02;
 
+
 import java.io.IOException;
 import java.lang.reflect.Array;
+import java.sql.DriverManager;
 import java.util.Arrays;
 
 public class ExceptionInfo {
     public static void main(String[] args) {
+
         // ArrayIndexOutOfBoundException
 //        int[] arr = {1, 2, 3};
 //        System.out.println(Arrays.toString(arr));
